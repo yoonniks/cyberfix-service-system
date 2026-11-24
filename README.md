@@ -49,23 +49,24 @@ cyberfix/
 │   ├── css/                # Client and admin stylesheets
 │   └── img/                # Logos and UI images
 └── database/
-    └── cyberfix_db.sql     # Database structure and sample data
-
+    └── cyberfix_db.sql     # Database structure and sample data 
+```
 ### How to Run Locally (XAMPP)
+
 1. Clone or download this repository into your XAMPP htdocs folder:
    C:\xampp\htdocs\cyberfix\
 
 2. Start Apache and MySQL in the XAMPP Control Panel.
 
 3. Create the database:
-    - Open http://localhost/phpmyadmin in your browser.
-    - Create a new database named cyberfix_db with utf8mb4_unicode_ci collation.
-    - Import the SQL dump file (database/cyberfix_db.sql).
+   - Open http://localhost/phpmyadmin in your browser.
+   - Create a new database named cyberfix_db with utf8mb4_unicode_ci collation.
+   - Import the SQL dump file (database/cyberfix_db.sql).
 
 4. Configure database connection:
-    - Copy config/db.example.php and rename it to config/db.php.
-    - Open config/db.php and enter your MySQL username and password (for default XAMPP: user 'root', password '').
+   - Copy config/db.example.php and rename it to config/db.php.
+   - Open config/db.php and enter your MySQL username and password (for default XAMPP: user 'root', password '').
 
 5. Open the application:
-    - Public website: http://localhost/cyberfix/index.php
-    - Admin login: http://localhost/cyberfix/login.php
+   - Public website: http://localhost/cyberfix/index.php
+   - Admin login: http://localhost/cyberfix/login.php
